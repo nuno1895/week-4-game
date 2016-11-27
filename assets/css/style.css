@@ -1,0 +1,41 @@
+body {
+	background: url("../images/thanos.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	color:black;
+	text-align: center;
+	font-family: 'Bangers', cursive, Times, Times New Roman, serif;}
+
+
+span {
+
+	font-size: 30px;
+	color: red;
+}
+
+
+
+.jumbotron {
+	height: 125px;
+	padding: 15px;
+}
+
+.panel-body {
+
+	padding: 0px;
+}
+
+.custom_size {
+	width: 475px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.custom_size1 {
+
+	width: 700px;
+	margin: auto;
+	margin-bottom: 20px;
+
+}

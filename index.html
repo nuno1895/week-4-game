@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Infinity Gem Game</title>
+	
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy" rel="stylesheet">
+
+
+</head>
+  <div class="jumbotron">
+    <h1 class="text-center">The Infinty Gem Game</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="panel panel-default custom_size1">
+        <div class="panel-heading">
+          <h2 class="panel-title">INSTRUCTIONS</h2>
+        </div>
+        <div class="panel-body text-center">
+          <h2>Beat Thanos and his Infinty Guanlet!!!! <br>
+          Click on the right gems to get to the target number and unlocking the Gaunlet's secret destroy code. The gems' value and the target number will reset after each win or loss.</h2>
+        </div>
+      </div> <!-- closes the panel div -->
+
+      <div class="panel panel-default custom_size">
+        <div class="panel-heading">
+          <h2 class="panel-title">WINS/LOSES</h2>
+        </div>
+        <div class="panel-body text-center">
+         <h2>Wins:     <span id="wins"></span> Losses:     <span id="losses"></span></h2>
+        </div>
+      </div> <!-- closes the panel div -->
+
+
+      <div class="panel panel-default custom_size">
+        <div class="panel-heading">
+          <h2 class="panel-title">GEMS</h2>
+        </div>
+        <div class="panel-body text-center" id="gems">
+         <h2>GEMS</h2>
+        </div>
+      </div> <!-- closes the panel div -->
+
+
+      <div class="panel panel-default custom_size">
+        <div class="panel-heading">
+          <h2 class="panel-title">Current Clicked Value</h2>
+        </div>
+        <div class="panel-body text-center" id="gems">
+         <h2>Current Value is: <span id="value"></span></h2>
+        </div>
+      </div> <!-- closes the panel div -->
+
+      <div class="panel panel-default custom_size" >
+        <div class="panel-heading">
+          <h2 class="panel-title">Target Number</h2>
+        </div>
+        <div class="panel-body text-center">
+          <h2> Your Target Number is: <span id="target"></span></h2>
+        </div>
+      </div> <!-- closes the panel div -->
+
+    </div> <!-- closes the row div -->
+  </div> <!-- closes the container div -->
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
